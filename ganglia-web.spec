@@ -55,8 +55,8 @@ written in the PHP5 language and uses the Dwoo templating engine.
 %attr(0755,nobody,nobody)/var/lib/ganglia-web/filters
 %dir %attr(0755,www-data,www-data)/var/lib/ganglia-web/conf
 %dir %attr(0755,www-data,www-data)/var/lib/ganglia-web/dwoo
-%attr(0755,www-data,www-data)/var/lib/ganglia-web/dwoo/compiled
-%attr(0755,www-data,www-data)/var/lib/ganglia-web/dwoo/cache
+%attr(0777,www-data,www-data)/var/lib/ganglia-web/dwoo/compiled
+%attr(0777,www-data,www-data)/var/lib/ganglia-web/dwoo/cache
 %{web_prefixdir}/
 %config(noreplace) %{web_prefixdir}/conf_default.php
 /var/lib/ganglia-web/conf/*
